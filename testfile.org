@@ -1,0 +1,12 @@
+
+* This is my headline
+
+#+BEGIN_SRC dot :file testfile.png :export results
+  digraph {
+          A -> B;
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:testfile.png]]
+
