@@ -1,7 +1,7 @@
 
 * This is my headline
 
-#+BEGIN_SRC dot :file testfile.png :export results
+#+BEGIN_SRC dot :file testfile.png :export none
   digraph {
           A -> B;
   }
